@@ -6,8 +6,10 @@
             "baseUrl": "",
             "types": []
     },
+    "compileOnSave": true,
     "exclude": [
             "test.ts",
+            "node_modules/*",
             "**/*.spec.ts"
     ]
 }
