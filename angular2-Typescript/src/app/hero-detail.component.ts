@@ -12,7 +12,7 @@ import { HeroService }  from './hero.service';
    styleUrls: [ './hero-detail.component.scss' ]
 })
 
-export class HeroDetailComponent implements OnInit {
+export class HeroDetailComponent {
     hero: Hero;
 
     constructor(
